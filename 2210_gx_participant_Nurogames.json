@@ -1,0 +1,114 @@
+{
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Nurogames.json",
+      "issuer": "did:web:delta-dao.com",
+      "issuanceDate": "2025-03-12T23:31:27.184Z",
+      "credentialSubject": {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Nurogames.json",
+        "type": "gx:LegalParticipant",
+        "gx:name": "Nurogames GmbH",
+        "gx:legalName": "Nurogames GmbH",
+        "gx:website": "https://www.nurogames.com/",
+        "gx:legalRegistrationNumber": {
+          "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Nurogames.json"
+        },
+        "gx:headquarterAddress": {
+          "gx:countrySubdivisionCode": "DE-NW",
+          "gx:addressCountryCode": "DE",
+          "gx:streetAddress": "SCHAAFENSTRASSE 25",
+          "gx:postalCode": "50676",
+          "gx:locality": "Köln"
+        },
+        "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "DE-NW",
+          "gx:addressCountryCode": "DE",
+          "gx:streetAddress": "SCHAAFENSTRASSE 25",
+          "gx:postalCode": "50676",
+          "gx:locality": "Köln"
+        }
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-03-13T00:31:27.198+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FuDTwTw6p-Evt4MFKUbYBIgIQ2alCqXchEObWce2anArDsOjBA97-xp9E22xOEXt02VSJUCXeqs1Po5B3jg4dnUbV035VUzHgB6RxrumYoD41dw1wXLW47iwn_GwCUdCKeSvl__LMuf5q4VZ-FZpqndj6aVLOdfWV7Tg25P7uy4h-HoTXJtkbfpN4MYKCcpcTWyrARsa-9tbvGH8SMY2P3tEM5xJ0LhlwE-_YbRTcQGNswDaHtI5aikwNeEto5lN8OY126bgT_UqCDJSuIA-igfm587Av6tbICE67qdZ0Pi1fp_uDq_WzgoQJ9vLV3YPVSDEarQ5vuKQIvDhWK280McEL77PjCFE07t9YyDC7jGVwrduP9EbC7oiXv-ZYqAIsE66-Tsyz69BTFRAMM30_lTjFAbKX5iAjv-xJlp88Qv4CvXbQQMiciK1UZf43-AJbrcKFgmlr5yPwR9bxdvp_GPRgDgwFetFLNv_iAtn07u0qJZAr5k8jDe6O6tOVbozDmcQjNVX86sTQiwOKzu5tAtC2MrsVVayOpA0TVzSF9xis0tBAIAPbZGrU0kVTXsb4kVJUiXWF2jw5vHuDUkKz5_wUHd_Bj52-PflOCA2nx3GQl9QHNrOLUE6F7oIFIa0Got7auXe0X8j-Pq-agNFxbpXH7MN2zUjFFUS9MOG4ZQ"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Nurogames.json",
+      "issuer": "did:web:www.delta-dao.com:notary:v1",
+      "issuanceDate": "2025-03-12T21:12:02.191Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Nurogames.json",
+        "gx:vatID": "DE249556947",
+        "gx:vatID-countryCode": "DE"
+      },
+      "evidence": [
+        {
+          "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+          "gx:executionDate": "2025-03-12T21:12:02.191Z",
+          "gx:evidenceOf": "gx:vatID"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-03-12T21:12:02.208Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..IHm-c3x9X3ekrMu05RppDztglFCK0pslN6PJ2hH6zkk6cLLMRmuPV3aap6m3DvpLrqTsSE631N83pPwJ9j76UAKq9_MnM1D84ixouHHjnLbu6Ad9UjU3B7OnQz0iIeMRdWcN3rJaaU4mObYjmrlKVCsGEgNmX5QGovsWhEIz__NGRIu0NF9eRfnaAzqPccxBqG3jHuovw0iWn-_6mofs7IABnW-dBQKGlG0To8PNSXyE7hEQCdzSW6eIV_9diOievpg8fzI1A8ICqMQIvZBa5ploJ__YQp-42kTqf1EgTe_uMcuxK3nIAHPEviyK1LuJLRnaDJ7QWNAUDKLNOaLcZDt997ThMPlYZrIhVTKxZ1lxIK3uR5fTdKZptdEv5Z0N1md1OK1bQWMiXEJjP-9TbqoQqcfsyhec-NwxYtoie6i6JGAf-2xxellaeUQvr6y1IcxNNa7l9QT10EYhS7hVJA8YSJ4hKAnBJa2g-BUm6SIQYflLS3aMO0jhxvpOa2mOhJwZlXmAVGHgWZB3bjvoExtj7RON3KI6ywRPb7A87CV7jXI1SPJA-TFCysPRadwYcnq0jrm6GuriWEHR4OQMPBqeJWkmq13ifrHlPzuEbhl5u77sp8sQGU1em3IdM62skvjs_jbG-ljb0iyV-FrZfhRiDGoDEEsvLYLl-zAmlwY"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "issuanceDate": "2025-02-23T16:44:24.756Z",
+      "credentialSubject": {
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json"
+      },
+      "issuer": "did:web:delta-dao.com",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-02-23T17:44:34.523+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jlIdBknc99spxovDOS08ru5FKjNAXaHXeU5UBA8pMJHhOD02-UwXUscnLqv8gPLdi2nkkHpgXmi3-M2miqjDPNgo7LVsmdNj5LomY_SAt-wReIkHwrwkzTMxxKY1DgxLKQWGQBXvZ3D2S9bwL7QAqgnVY6mbF0xasaKlc6fMTEafF8-Pg1B7uKQynNM6mMa2J005DeTWSO36jyMmpSySA_qVSxY2NzJb_LiMzIMZLhO4VKIl-wW-_SWFZNjzPCJW9JcVcVDhUcjtsrY93mgjzFhj0Q0Sdoz1eRpieKlpgOZmeX975uGkYPyg6e8GW4inubIOjP-_1d1qP5PEUTZ9np7Lr11IyboReolR_Ddn7mPKTJctTknTFGLjoNqjXdbITbpOBocOp-B9odzcofDd6iV14aS9A7hIooGX1lEiNuTzapV-lqecJNLeysuFJDBSIyB2bNtBs-u53Jh7p1qgz5n5FxgOv_VF8HKIdu7PLKW2TOYB-6mKi6wpgJGhhX0bemC_GqifVJok4lBD0sPHVVKBbCtGlG4-TZn211HxZP7I8fFMWycft063tVsNXOI-co-706A6ei9FAUD0ALEv_Lq6nORiqrPK7xZXpM0p5rh9wdEswu0CMA_KqwbM6UTCf3RWBMtM82INLNBsFv3NW5_mMgg1hPwn4bxPENXeB3A"
+      }
+    }
+  ]
+}

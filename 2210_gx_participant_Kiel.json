@@ -1,0 +1,114 @@
+{
+    "@context": "https://www.w3.org/2018/credentials/v1",
+    "type": "VerifiablePresentation",
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Kiel.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2025-03-12T23:18:47.040Z",
+            "credentialSubject": {
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Kiel.json",
+                "type": "gx:LegalParticipant",
+                "gx:name": "Landeshauptstadt Kiel",
+                "gx:legalName": "Landeshauptstadt Kiel",
+                "gx:website": "https://kiel.de",
+                "gx:legalRegistrationNumber": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Kiel.json"
+                },
+                "gx:headquarterAddress": {
+                    "gx:countrySubdivisionCode": "DE-SH",
+                    "gx:addressCountryCode": "DE",
+                    "gx:streetAddress": "FLEETHÖRN 9",
+                    "gx:postalCode": "24103",
+                    "gx:locality": "Kiel"
+                },
+                "gx:legalAddress": {
+                    "gx:countrySubdivisionCode": "DE-SH",
+                    "gx:addressCountryCode": "DE",
+                    "gx:streetAddress": "FLEETHÖRN 9",
+                    "gx:postalCode": "24103",
+                    "gx:locality": "Kiel"
+                }
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-03-13T00:18:47.055+01:00",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZcLLwsYHMnLLwSKP9KXIJuIkf6RmMOARscjDb0UmGtlM0ccs1qm1vtxFsFlF6Le-KhSJ6Oubi-zc-sx4D-DnAwMDYPbZAfqONUVQOlRU2ycP0QePQ09Q3JCetZmd9yoOVmXorCsHiQiegGYsulbSHGATTu3DCyhMXcTDRg9Ao_1cRITddGZCzgR32FgINClx6nJ2xpW25FhOx7FKqKTXNN18YrtHW3b3rrQK6_BdJ0b1DEqYCFtERz7kN4YzunL2HZGjdHA0vgfUCzTCJWU284cfKBUafHj16H4gOXoTgcqNaBjCK8wS_3pCHHtTLp3a_k3FpDnYxYi8EU7s98VzkOQOlNeC7D3oMxBms3FB27FpBGHrvvCCjRjyXTkX7XwXD6o2JDMpcmosDagTcHvpN-DJEP5ywNbiln0PMBjjOKQanqYryVjdEUNKZll_uF2JrFDRaYRk7OC5tp_9J5Fgo4Amch-h6ZDqEvmbk3kM1Bh7uymlGqsyYMYNQb5SsfgJICd1TvZebkg_kZUlEIGONnZyLzqQUe8msTFNTxgS9YHb4s0yaEI_SQAjZV_y3AEWnGRpErTNIhLPhDQFZCq_BWNU0mDz1S7aUM-GJk4VXS2oOSAWGY5heP5rQ4oDrjdf-8X3SZG58O_UiWpw1qSFUAYdjIofwRLzJc_KP662z6Y"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Kiel.json",
+            "issuer": "did:web:www.delta-dao.com:notary:v1",
+            "issuanceDate": "2025-03-12T21:04:43.987Z",
+            "credentialSubject": {
+                "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+                "type": "gx:legalRegistrationNumber",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Kiel.json",
+                "gx:vatID": "DE134858950",
+                "gx:vatID-countryCode": "DE"
+            },
+            "evidence": [
+                {
+                    "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+                    "gx:executionDate": "2025-03-12T21:04:43.986Z",
+                    "gx:evidenceOf": "gx:vatID"
+                }
+            ],
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-03-12T21:04:44.003Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Dqd2zbx4urg8YoJzDYSSKyZv7ByBfC1-V3jon2Cl9Fdf47NEtjAb_b6hshwF15XX2G-RI3Wpi1CpNGi7vucgkIDN8Mg_o7vR1bGXxOydeZI2cSd-shQjuJZ6J3p6pF98r6D9R5AQA7tojVE-HCSOUbwfOIUg8G4xnhX4ZzUTEbQFsYP2Jo38lix_kwydhH5W5PaFq-fFgvJ1fBacK16rvqFwdA5CDSUZ2xJlhj86uNsK2GyrH6D7hRNo5wRMq6R6NlS9P1kGuFiR_Ly3ZiNqik3jF9t-B7YgMZCYUxoLW6s-ubG10Wib5JA1c2pwsEMfTYH3GnUOfgQbFUIh3oijQ2QtIDnbaS-UHMTCtdtJHxWgWhvgW3u32HnWG0KFKajGFgPq1JnewAYyGafftcVv1hp_mU7_uaGzFWV7OdxFu_5RYcBEsfudUzjBLMK5I8X_wSgcLExOdvO8E-br3tIqQhfAbqvA2n1FVLUyKgrS49DN41hTN_xnpJRoHEZEWuqCSOT9zkoz0t3AfDTQngYaVXV-jHBiRcnFeAd2d67njPuhgaauk_ZNxt2eWq_pMEwr2Gxq16i_E-kRc912PNHYi6kbkm8tXROzjwzIB86GZx6g8rCHGKOo2rUwApvEHcFjTTFWJRXNUgXSJ0b7up4U6Ta2htyzvbn7UD2mHVgkVjU"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "issuanceDate": "2025-02-23T16:44:24.756Z",
+            "credentialSubject": {
+                "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+                "type": "gx:GaiaXTermsAndConditions",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json"
+            },
+            "issuer": "did:web:delta-dao.com",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-02-23T17:44:34.523+01:00",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jlIdBknc99spxovDOS08ru5FKjNAXaHXeU5UBA8pMJHhOD02-UwXUscnLqv8gPLdi2nkkHpgXmi3-M2miqjDPNgo7LVsmdNj5LomY_SAt-wReIkHwrwkzTMxxKY1DgxLKQWGQBXvZ3D2S9bwL7QAqgnVY6mbF0xasaKlc6fMTEafF8-Pg1B7uKQynNM6mMa2J005DeTWSO36jyMmpSySA_qVSxY2NzJb_LiMzIMZLhO4VKIl-wW-_SWFZNjzPCJW9JcVcVDhUcjtsrY93mgjzFhj0Q0Sdoz1eRpieKlpgOZmeX975uGkYPyg6e8GW4inubIOjP-_1d1qP5PEUTZ9np7Lr11IyboReolR_Ddn7mPKTJctTknTFGLjoNqjXdbITbpOBocOp-B9odzcofDd6iV14aS9A7hIooGX1lEiNuTzapV-lqecJNLeysuFJDBSIyB2bNtBs-u53Jh7p1qgz5n5FxgOv_VF8HKIdu7PLKW2TOYB-6mKi6wpgJGhhX0bemC_GqifVJok4lBD0sPHVVKBbCtGlG4-TZn211HxZP7I8fFMWycft063tVsNXOI-co-706A6ei9FAUD0ALEv_Lq6nORiqrPK7xZXpM0p5rh9wdEswu0CMA_KqwbM6UTCf3RWBMtM82INLNBsFv3NW5_mMgg1hPwn4bxPENXeB3A"
+            }
+        }
+    ]
+}
