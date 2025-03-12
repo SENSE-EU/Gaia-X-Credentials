@@ -1,0 +1,114 @@
+{
+  "@context": "https://www.w3.org/2018/credentials/v1",
+  "type": "VerifiablePresentation",
+  "verifiableCredential": [
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Dunavnet.json",
+      "issuer": "did:web:delta-dao.com",
+      "issuanceDate": "2025-03-12T23:28:19.174Z",
+      "credentialSubject": {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Dunavnet.json",
+        "type": "gx:LegalParticipant",
+        "gx:name": "Dunavnet Limited",
+        "gx:legalName": "Dunavnet Limited",
+        "gx:website": "https://dunavnet.eu",
+        "gx:legalRegistrationNumber": {
+          "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Dunavnet.json"
+        },
+        "gx:headquarterAddress": {
+          "gx:countrySubdivisionCode": "IE-D",
+          "gx:addressCountryCode": "IE",
+          "gx:streetAddress": "LYNWOOD HOUSE BALLINTEER ROAD",
+          "gx:postalCode": "D16H9V6",
+          "gx:locality": "DUBLIN"
+        },
+        "gx:legalAddress": {
+          "gx:countrySubdivisionCode": "IE-D",
+          "gx:addressCountryCode": "IE",
+          "gx:streetAddress": "LYNWOOD HOUSE BALLINTEER ROAD",
+          "gx:postalCode": "D16H9V6",
+          "gx:locality": "DUBLIN"
+        }
+      },
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-03-13T00:28:19.188+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AaxY_0q_HE4e42xEWb85ixb_oet1OZmj3MAp2OOHvwVeQnnlYbRYzfPiwuBgcqphENVpuWVyyf25QJnsGuIp3z0ks1cnKFcni4imk1J5yBXD0OBQhAVxkQspo3j7YgRX6ahT1Eg36aRY9eHxAKFH2_SC02kNhUBU_GHgrG41LGepNAxzr6hVrq3r8tThnNQxu7_klB592tbBFfviV8cdiVsRnM_mWjnZJAjL6sXeEXTj09Q2qovAPDrv1XAUADGMQDkVfSm3TkQ4pqeBRUoEdtQ6lCS4BVUjFHF2BNpo6HrX4JU-jQrF5f6JTzlHdRVfpkVk4PIVciPy2WdYO6cmD2mFXg3ttuHNCCWfjpJB7hoxxsDfA1P5pDa6RcPkGDMTEIgyCDGiOFJN59AQGlZ1T3gAnXMcAfStAXEnBgEzNwrjvjq3SK-TrQMxyZLz86jpDDu67vtcsqDFpKXE7e85OVv-UUc_69dZkvNdTtEUe1dBzax4zeMKI_Xtp_a-o8emWIs-OZUutRzaPAlFVJgsXHD1xSrB3uGVY94j7zzE-DX0qkxPHjeW7VS6LdtQ2bji8dkEmOYm2ZilyvMptYbQ1ETFPt_oQRAk_Bx2Hp26KNkeJcKDUIcbjiBAHZjbrNpFvny6fnSF_-MLfbIi3yMXszeGvwtvg-I9uX0MkGFDNE4"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+      ],
+      "type": [
+        "VerifiableCredential"
+      ],
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Dunavnet.json",
+      "issuer": "did:web:www.delta-dao.com:notary:v1",
+      "issuanceDate": "2025-03-12T21:10:50.404Z",
+      "credentialSubject": {
+        "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+        "type": "gx:legalRegistrationNumber",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Dunavnet.json",
+        "gx:vatID": "IE6427672K",
+        "gx:vatID-countryCode": "IE"
+      },
+      "evidence": [
+        {
+          "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+          "gx:executionDate": "2025-03-12T21:10:50.404Z",
+          "gx:evidenceOf": "gx:vatID"
+        }
+      ],
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-03-12T21:10:50.418Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..huNdVJmaUd5ITTDdrQusvGBqQ6RIv-2QqThV3M89Tn2B9Ymtq5Mr-Ljp9-Vx5B1Y6ghtG57dKpZBuU0HyZU5vNn8RgnZL7-f1hDFX3Bzcp911FcSsKau-ug2est9FhN3DJyyIcS2qCdPDqFx5yJh8o0II-xJxY877SPyOennw3B4DLr6rWhAQVEUpdS59v1HanytbvMj0mLgWWr6yPlvX_zfkNUXlgpsC1VPfrMvsc6uOTAC9HESyAJOUQCyc2YA9cwqNNQ_Ub5uKtNCJvKf4ZNu3gyRoWmIDpJIVBMQMFGJF99EpSUUnVAvUC8Tp7FwDvgietK8PJWt0H2ew-ul7gg7lJPlhBCZWsVyggysAd0MdALQqgTvfw_-OqRM1VGC8NIDbINcZTXmVfQJNjRMfsrBHg19yb1coAcKeYXKoZAKX-OwnCfLhv0p8IMONnkYCP2V8qmRcJslW4PGJiWETT86vvW6jqDJ1VMzqcChK8RSuP63QHBrGYS7f3W4WF7QGrIxSFEMyFvBuKDRsgwNCWJfl-raL23REXCDwJSCfIhjeNG5dqJQBKMdi7zfb3r32yvgS2qmR0sknRYxOOexsGd7nh7fk6CfFkrrgGBW929iH9xsSIPiAZvmHjoma3WlaxFirQorcP_0f148sSq6GchrfESj74l1l8jFEvQBpeM"
+      }
+    },
+    {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+      ],
+      "type": "VerifiableCredential",
+      "issuanceDate": "2025-02-23T16:44:24.756Z",
+      "credentialSubject": {
+        "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+        "type": "gx:GaiaXTermsAndConditions",
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json"
+      },
+      "issuer": "did:web:delta-dao.com",
+      "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+      "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-02-23T17:44:34.523+01:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jlIdBknc99spxovDOS08ru5FKjNAXaHXeU5UBA8pMJHhOD02-UwXUscnLqv8gPLdi2nkkHpgXmi3-M2miqjDPNgo7LVsmdNj5LomY_SAt-wReIkHwrwkzTMxxKY1DgxLKQWGQBXvZ3D2S9bwL7QAqgnVY6mbF0xasaKlc6fMTEafF8-Pg1B7uKQynNM6mMa2J005DeTWSO36jyMmpSySA_qVSxY2NzJb_LiMzIMZLhO4VKIl-wW-_SWFZNjzPCJW9JcVcVDhUcjtsrY93mgjzFhj0Q0Sdoz1eRpieKlpgOZmeX975uGkYPyg6e8GW4inubIOjP-_1d1qP5PEUTZ9np7Lr11IyboReolR_Ddn7mPKTJctTknTFGLjoNqjXdbITbpOBocOp-B9odzcofDd6iV14aS9A7hIooGX1lEiNuTzapV-lqecJNLeysuFJDBSIyB2bNtBs-u53Jh7p1qgz5n5FxgOv_VF8HKIdu7PLKW2TOYB-6mKi6wpgJGhhX0bemC_GqifVJok4lBD0sPHVVKBbCtGlG4-TZn211HxZP7I8fFMWycft063tVsNXOI-co-706A6ei9FAUD0ALEv_Lq6nORiqrPK7xZXpM0p5rh9wdEswu0CMA_KqwbM6UTCf3RWBMtM82INLNBsFv3NW5_mMgg1hPwn4bxPENXeB3A"
+      }
+    }
+  ]
+}
