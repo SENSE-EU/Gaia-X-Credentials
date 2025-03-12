@@ -1,0 +1,115 @@
+{
+    "@context": "https://www.w3.org/2018/credentials/v1",
+    "type": "VerifiablePresentation",
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_University_Galway.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2025-03-12T23:12:26.657Z",
+            "credentialSubject": {
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_University_Galway.json",
+                "type": "gx:LegalParticipant",
+                "gx:name": "University of Galway",
+                "gx:legalName": "University of Galway",
+                "gx:website": "https://www.universityofgalway.ie/",
+                "gx:legalRegistrationNumber": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_University_Galway.json"
+                },
+                "gx:headquarterAddress": {
+                    "gx:countrySubdivisionCode": "IE-G",
+                    "gx:addressCountryCode": "IE",
+                    "gx:streetAddress": "University Road",
+                    "gx:postalCode": "H91 TK33",
+                    "gx:locality": "Galway"
+                },
+                "gx:legalAddress": {
+                    "gx:countrySubdivisionCode": "IE-G",
+                    "gx:addressCountryCode": "IE",
+                    "gx:streetAddress": "University Road",
+                    "gx:postalCode": "H91 TK33",
+                    "gx:locality": "Galway"
+                }
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-03-13T00:12:26.672+01:00",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jXzYhItG9Ex_J3ycfIa8ZgE-gbyCLukSTWU60vR2HJfzx3L6bNNybZmzK0PpE6u3U2QBaIw4Mqbi59Mrk5THGeTmnZwnyKVHdjCQTtqqb9y_5wV0i4P6zXu0eSpObhNFKoHX7vbHVFBLoksBC_u6HkjyGsH4IVgoZysmkXx6yunu9NNihDnorG2QkpkKUM-DbTRxavUhGxFqoy4aKlZ5tD92yVyX7Q6VlyB7xYT_B3ebCNw3CyNnP8pCzxDw4j1-sda546KDAX4_22D-QS3x2JDD_VNb7ysyzecW9JSiKuDlHl3wK5sEAeq-akr-jHDBQ_2gq62xL8a984-vqVGPAUYswf3uOpDhzbH_z6hpzab2n4AfrelLwCgommjIDJ-OSPOVAHQRf56xdMVW1oHe8E14NYe_AGv2sE2vqDMtb8wBhd2jxUTe28YWdthwENwVkHM4wNkM2wGeEvOfmXCBEkGa6CR1ECDcEAK2GsYHRFDNk9XjhKMG833u3DHrLgM-OLi3y8PKB6bFyZZpWGMoLdxEFSwLPIH1GMRVIt6okGOqXqMRkdAccyOvMCktgx08waT3jFEm9duoGmGMdqxenWnAVa3HCW5wcN2XIg2Gw3cxa85X53x7f5QtTK2Fm8dXGRi8edPV3W9WnsZgG7vZGkv2s41h_xWmPs8UvLZwXec"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_University_Galway.json",
+            "issuer": "did:web:www.delta-dao.com:notary:v1",
+            "issuanceDate": "2025-03-12T20:57:59.814Z",
+            "credentialSubject": {
+                "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+                "type": "gx:legalRegistrationNumber",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_University_Galway.json",
+                "gx:leiCode": "635400WXENKTLQDWRH74",
+                "gx:leiCode-countryCode": "IE",
+                "gx:leiCode-subdivisionCountryCode": "IE-G"
+            },
+            "evidence": [
+                {
+                    "gx:evidenceURL": "https://api.gleif.org/api/v1/lei-records/",
+                    "gx:executionDate": "2025-03-12T20:57:59.814Z",
+                    "gx:evidenceOf": "gx:leiCode"
+                }
+            ],
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-03-12T20:57:59.828Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..n2xwdmQXBOX0DGC2UDCK_qmthZNyg03oAa4DxiWJnkKgHFFY5Kf6IzvIM0OuDALoFMZD1j-4dJdXZwWnzZS3x5IT0QKtHZn0ExbX1JzoYPHcLyR7tOeRADn9zRfeUkw16jlUW3cG1MqojNAACnpCezi64MQiMEcSMsOvFLLxCP8bic3FQWs3yEp-c9Ca_e-NN7SOT0R-B5ONfu5T7WXjjcJzMxp0lpcDG1yNRdEBcWf6q9OCWw75fJv0NAaAV-fCVW6slBgNA5TmHVgqtbIbbvZ0uV-m516p6nmBScsvxCcenY5gJt6BmH6B0DaNEO3hZugxwlS0Zp5rPDkFAk2VgperdNO_LAXYL7096tL-CInBWG7XEUCmDWzlm25C1LPR71MjCF1VXYdZH33G-Y0xhbOd7_uW1yXb8BO_iAr40b7pvDB121Zj0E6UDyww2Zc2UxwBl5z7BrgVxobRR-KuGobMmxa7jEhUXA2WmVm192tWlWi24drHkix_M-A0JcfhgkEhZTLzybLWE6lzy_vGQki8EtTafuY3tZQmTs_5zmRV_m8oT1NQsbfDShujg45cJ39VL1ykXnt3DwI5FnKncEcdE_rW_aOnN5dq0oPj9kP2foL5g3icIJqGQiveIIYkiwtkmwdx1Do6SOVQjA-kgVFKC5mR-qcU4OlBWIUtMBI"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "issuanceDate": "2025-02-23T16:44:24.756Z",
+            "credentialSubject": {
+                "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+                "type": "gx:GaiaXTermsAndConditions",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json"
+            },
+            "issuer": "did:web:delta-dao.com",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-02-23T17:44:34.523+01:00",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jlIdBknc99spxovDOS08ru5FKjNAXaHXeU5UBA8pMJHhOD02-UwXUscnLqv8gPLdi2nkkHpgXmi3-M2miqjDPNgo7LVsmdNj5LomY_SAt-wReIkHwrwkzTMxxKY1DgxLKQWGQBXvZ3D2S9bwL7QAqgnVY6mbF0xasaKlc6fMTEafF8-Pg1B7uKQynNM6mMa2J005DeTWSO36jyMmpSySA_qVSxY2NzJb_LiMzIMZLhO4VKIl-wW-_SWFZNjzPCJW9JcVcVDhUcjtsrY93mgjzFhj0Q0Sdoz1eRpieKlpgOZmeX975uGkYPyg6e8GW4inubIOjP-_1d1qP5PEUTZ9np7Lr11IyboReolR_Ddn7mPKTJctTknTFGLjoNqjXdbITbpOBocOp-B9odzcofDd6iV14aS9A7hIooGX1lEiNuTzapV-lqecJNLeysuFJDBSIyB2bNtBs-u53Jh7p1qgz5n5FxgOv_VF8HKIdu7PLKW2TOYB-6mKi6wpgJGhhX0bemC_GqifVJok4lBD0sPHVVKBbCtGlG4-TZn211HxZP7I8fFMWycft063tVsNXOI-co-706A6ei9FAUD0ALEv_Lq6nORiqrPK7xZXpM0p5rh9wdEswu0CMA_KqwbM6UTCf3RWBMtM82INLNBsFv3NW5_mMgg1hPwn4bxPENXeB3A"
+            }
+        }
+    ]
+}
