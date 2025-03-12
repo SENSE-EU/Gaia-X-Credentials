@@ -1,0 +1,114 @@
+{
+    "@context": "https://www.w3.org/2018/credentials/v1",
+    "type": "VerifiablePresentation",
+    "verifiableCredential": [
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json",
+            "issuer": "did:web:delta-dao.com",
+            "issuanceDate": "2025-03-12T23:15:49.668Z",
+            "credentialSubject": {
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json",
+                "type": "gx:LegalParticipant",
+                "gx:name": "Ayuntamiento de Cartagena",
+                "gx:legalName": "Ayuntamiento de Cartagena",
+                "gx:website": "https://www.cartagena.es/",
+                "gx:legalRegistrationNumber": {
+                    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Cartagena.json"
+                },
+                "gx:headquarterAddress": {
+                    "gx:countrySubdivisionCode": "ES-MC",
+                    "gx:addressCountryCode": "ES",
+                    "gx:streetAddress": "CALLE SAN MIGUEL 8",
+                    "gx:postalCode": "30201",
+                    "gx:locality": "CARTAGENA"
+                },
+                "gx:legalAddress": {
+                    "gx:countrySubdivisionCode": "ES-MC",
+                    "gx:addressCountryCode": "ES",
+                    "gx:streetAddress": "CALLE SAN MIGUEL 8",
+                    "gx:postalCode": "30201",
+                    "gx:locality": "CARTAGENA"
+                }
+            },
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-03-13T00:15:49.683+01:00",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jrchFrogbeY_cyuKmaigrZGfEbVjIwKOwsLHiQ0TAtXndKgS1E_Kqlx2Ap4js3drvDQrkHA2AxJAKTqRf-kzWlmTI2ri7uXasdUum66gIk5kmkMKxHu98yVue_rEHj_FmarQA1lwram9NoLwjpdrbVmsZwme3a_pOcX68pCu5nyEISA1yyUp-R5cOIfdem0wFvx25_B2JJvXgLkj4vLRooRY3YGVt2nujcEpeF_M-7rWevB1GztTZtoqB3BvzEKrZZLIbDoGg-mZGcvGXayvqMY1pcqG7eR_-1VhBeHn6Bhf87rTweja-ZZXV2z9XNRn779hG3yCjVAR07uruPkmC7qm00FvLii_vPUPjthdDsQB4CY8qwNaSUolMgG0xo7pYsczT98_f8uLXy8zPxwokwgYgdduf3GYrMwLLK6n83yh9lkZ2cyyja6LNhrvbVZs3jfk5A07cYbmn-vs9tVD8DFP3V5hfI5M6DStSQMIGZusfnbTdlxdUk2sxfAvGpQHGRdtLOifBtN10lnrJp5s-mgBJX_lP3FDyjJES2BCI5T9CR0DkOO11iH5BG8jTMZVxL3c6yiQppYJQ3IDupiXWKBpwDN5XGlYjNqvvz1IeKuaOSONo4o1q40J8cW9YfKYs1Q7RKNfoWf-7KfW2Uvd9XcvlSqvm8j_prvpIFWEuTI"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1"
+            ],
+            "type": [
+                "VerifiableCredential"
+            ],
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json",
+            "issuer": "did:web:www.delta-dao.com:notary:v1",
+            "issuanceDate": "2025-03-12T21:02:45.391Z",
+            "credentialSubject": {
+                "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+                "type": "gx:legalRegistrationNumber",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json",
+                "gx:vatID": "ESP3001600J",
+                "gx:vatID-countryCode": "ES"
+            },
+            "evidence": [
+                {
+                    "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+                    "gx:executionDate": "2025-03-12T21:02:45.391Z",
+                    "gx:evidenceOf": "gx:vatID"
+                }
+            ],
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-03-12T21:02:45.406Z",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AZ4MjpgFiDOgj2lfErF8qcuMzVvJvmClgleUb715E8BWH1RACTQcrvO_c4SIKnFi1XljtjMUXWrrwaXj0bG1fKc71scCYrwI-doD2KAdb-jjSfh2mxlzmsUHY6qbz7x_WJwuNIBqSYfiYKQAAxl7PFWz06FY4QsvOMvCflrYxbOlk29MbvjX2C1NL-94Pt2_aCanHi_qvzSuKCmk4NY8Q5F8DKC1_SXmbRUI3Qhe2EthHR09TZp_kWqO2KDgJJV1DAKlsUl_vhF0cVlihw4VxntNI8h5HQ_cV1_IwrXk7fZzZJtnofL3YF2dj2LjEEOUGKwb5vDnG-QkaJFyMLnjXPeMs816XJ-JmmhroMbhlMcG30MVpyQVUz-w1SC9p7JlIKssKDLCSqU3bvPrIfuoaH-IxTfs8HmscNM9ChDB1n2bIzlTArkyLLR-SWP-3pHWsEdmvxkrDZ6tIrUpg4pFZMRRb-S3CXwAuF0q9Sz-_oRauOalD5GDrOJanDmMqJbhuAvSsGbdLDQgaKHAV7ao41WCOagKqY8X26iXapXdNZFIF7rBJKEA4axAEPDb8WcQ3xYDR-xnwcy9bWJJ1NNGlCt05zjw2DcYGNtQaHlJb7jDu_hPZzTrdbeAaA9NBd55ttaMzlQsj5cUFoMUHoEcSCrhypQgdL2qBt17QTjRrio"
+            }
+        },
+        {
+            "@context": [
+                "https://www.w3.org/2018/credentials/v1",
+                "https://w3id.org/security/suites/jws-2020/v1",
+                "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+            ],
+            "type": "VerifiableCredential",
+            "issuanceDate": "2025-02-23T16:44:24.756Z",
+            "credentialSubject": {
+                "gx:termsAndConditions": "The PARTICIPANT signing the Self-Description agrees as follows:\n- to update its descriptions about any changes, be it technical, organizational, or legal - especially but not limited to contractual in regards to the indicated attributes present in the descriptions.\n\nThe keypair used to sign Verifiable Credentials will be revoked where Gaia-X Association becomes aware of any inaccurate statements in regards to the claims which result in a non-compliance with the Trust Framework and policy rules defined in the Policy Rules and Labelling Document (PRLD).",
+                "type": "gx:GaiaXTermsAndConditions",
+                "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json"
+            },
+            "issuer": "did:web:delta-dao.com",
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_tandc.json",
+            "proof": {
+                "type": "JsonWebSignature2020",
+                "created": "2025-02-23T17:44:34.523+01:00",
+                "proofPurpose": "assertionMethod",
+                "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+                "@context": [
+                    "https://www.w3.org/2018/credentials/v1",
+                    "https://w3id.org/security/suites/jws-2020/v1"
+                ],
+                "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jlIdBknc99spxovDOS08ru5FKjNAXaHXeU5UBA8pMJHhOD02-UwXUscnLqv8gPLdi2nkkHpgXmi3-M2miqjDPNgo7LVsmdNj5LomY_SAt-wReIkHwrwkzTMxxKY1DgxLKQWGQBXvZ3D2S9bwL7QAqgnVY6mbF0xasaKlc6fMTEafF8-Pg1B7uKQynNM6mMa2J005DeTWSO36jyMmpSySA_qVSxY2NzJb_LiMzIMZLhO4VKIl-wW-_SWFZNjzPCJW9JcVcVDhUcjtsrY93mgjzFhj0Q0Sdoz1eRpieKlpgOZmeX975uGkYPyg6e8GW4inubIOjP-_1d1qP5PEUTZ9np7Lr11IyboReolR_Ddn7mPKTJctTknTFGLjoNqjXdbITbpOBocOp-B9odzcofDd6iV14aS9A7hIooGX1lEiNuTzapV-lqecJNLeysuFJDBSIyB2bNtBs-u53Jh7p1qgz5n5FxgOv_VF8HKIdu7PLKW2TOYB-6mKi6wpgJGhhX0bemC_GqifVJok4lBD0sPHVVKBbCtGlG4-TZn211HxZP7I8fFMWycft063tVsNXOI-co-706A6ei9FAUD0ALEv_Lq6nORiqrPK7xZXpM0p5rh9wdEswu0CMA_KqwbM6UTCf3RWBMtM82INLNBsFv3NW5_mMgg1hPwn4bxPENXeB3A"
+            }
+        }
+    ]
+}
