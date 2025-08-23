@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_resource_data_Cartagena_Parking_1.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2025-08-23T08:39:05.411Z",
+    "credentialSubject": {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_resource_data_Cartagena_Parking_1.json",
+        "type": "gx:DataResource",
+        "gx:name": "Parking Sensor Data via FIWARE Context Broker",
+        "gx:description": "Contains Parking Spot Occupation Data from the City of Cartagena",
+        "gx:containsPII": false,
+        "gx:policy": "default: allow",
+        "gx:license": "(c) City of Cartagena",
+        "gx:copyrightOwnedBy": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json",
+        "gx:producedBy": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json"
+        },
+        "gx:exposedThrough": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_provider_2.json"
+        }
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-08-23T10:39:05.419+02:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..g-9eND18YFyzrIZZtQqfBU1Wa6btb_weOPKoyBnFi1sz-PQmuUroTGquzfWN51pdBHTVNZYv5SV7KMIkk-dBO7H7YOge7wRRNBmqKw_Xuak30Ya5HdPnZlFKQRiguRRODHMTbqOK3Xf-oC42nnVuablf2dyedCf45CBa5Oa7J94I-aDpO2tq34IZoV5Prt_q71Y59shF46vDxPFXOV2igxNZnagBFheecv3LTfxuUc1cvoWe7UfsyLpNzZbHlU4x-gwq-pUd31PILcehXQTizApt02RXUY6H4qyc-leJh3NFljlxvsgAIqUwhppj7ZFgvkh3-IwU6dfY1RX84boXUtoH4O5btFhLok3jhlZ-yD3PfpaKTzmcamXRUhlpZjD9g74Oj8wgrDmF-5EeNvwRRoF90DB7VxuDUEX95IAh2MBScZ9XbKUSgW4hrhzt6x5CoEnzW3K0rowFr2lkCMwRkctXVM75OGAQ_R2EfEdV0n7RWIuPTCTfwnDip2UPFVtiED7Uu9zF4aQS-dg5ope4gNWzoDGQG8YXWONG5yX2GgUwoCM8fYVcCQGUSSsuQF95-No_yGJgr22ssCzsRw07KLyXNEiSclmvDei-3xmpsZGFAb_axK7_PzDvRMZ2Q1B-G8ZeKZRwusnA8eM5FbtKLRrJa_IhTYljOz6TRvfXI2I"
+    }
+}

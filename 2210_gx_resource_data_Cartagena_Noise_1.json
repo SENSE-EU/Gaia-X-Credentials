@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_resource_data_Cartagena_Noise_1.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2025-08-23T09:10:07.257Z",
+    "credentialSubject": {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_resource_data_Cartagena_Noise_1.json",
+        "type": "gx:DataResource",
+        "gx:name": "Noise Level Sensor Data via FIWARE Context Broker",
+        "gx:description": "Contains Noise Level Data from the City of Cartagena",
+        "gx:containsPII": false,
+        "gx:policy": "default: allow",
+        "gx:license": "(c) City of Cartagena",
+        "gx:copyrightOwnedBy": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json",
+        "gx:producedBy": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json"
+        },
+        "gx:exposedThrough": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_provider_2.json"
+        }
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-08-23T11:10:07.265+02:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bWt9WeN6KIwM2KCQva2uiW8tOQM5tl-EJFjf1rZMoGsrOMUj6HmnQi6WaIKIINMKcnOju-jETAeUtZyT7yNw6VoXlLBe4cm4xSSPHuBkXt46dpZ_fg4DEc9vk3AW9UWLgNUuGz6QmbrnifyagE1iYYW9byzFFkatCG4ctySz0s-2O9JGqlvu6LPGyOHpPQmsWu1mMqOg87pg_M_wVae5W8w5-XE9lSqWlcHubfAkkK2EJRNz2Eb46qYadAB8lVOWKb6WZ7NfMRXptHzihNq6qVeLdo6BS9wD9ZIGLUaU80fFMuXYVGPt0EBfZFhm14RS_kIbYgM_N-JWRA-ML37WL2aZCxPO0ZQrrFmYARLXTuDF0r4HIbK5vBdnF7e6LW0vHWwysNIked0gYDxyg6fkzAWz_30xFByzI-tNm18PF3idZ5VIGT_c3MzE5NY3rQdCli7tDec4hkbh_MZLhXw5OIPsJgNu8AbBK9syxCa2Nl8qRGB4R-5UY54feMaoSJmQwS289b3RdFTky1YbF8BVoQdEdtucewIRGHfx2rOR6gKG8Zq-C2Iz3NGjqyiLOQ_pg23cMoGDfKsV4Q89W8MvgWQk_ZAu2uiiRqxugHVtN_nG6aSWXvpjtrNBIVkrg0tPMAufvy9atdinwwLzkLKNd2-ao1LWYnoWvzgnuHfvFZU"
+    }
+}

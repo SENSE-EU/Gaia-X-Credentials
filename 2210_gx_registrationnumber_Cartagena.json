@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Cartagena.json",
+  "issuer": "did:web:www.delta-dao.com:notary:v1",
+  "issuanceDate": "2025-08-23T08:50:17.955Z",
+  "credentialSubject": {
+    "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "type": "gx:legalRegistrationNumber",
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_registrationnumber_Cartagena.json",
+    "gx:vatID": "ESP3001600J",
+    "gx:vatID-countryCode": "ES"
+  },
+  "evidence": [
+    {
+      "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+      "gx:executionDate": "2025-08-23T08:50:17.955Z",
+      "gx:evidenceOf": "gx:vatID"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2025-08-23T08:50:17.971Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:www.delta-dao.com:notary:v1#X509-JWK2020",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HBjRrYY80zjFf0yFLwayOrmenycdde5XZjX93Qe5Q4GlsMK6vB8-WY7P4k5fMTE9AdLBqbppwT0blFnX2dJxP7qN1vdCoLvGrfFtLz2HoofF3uVPwiwRWYtu00vrsTVeVWyJ9KwQjLi20YQRmroZYqV3cX8U_3-U19nKz56OTGoRc8o9RNifIzAeqoDqJ1ixDphfuYve9HkiSzOSHpzKZ04U1KeGwsRlSzgrPyUp4VNLnoyZ5BInCwpHTQgOGqRjPAO33KMm73g_Ue5iM_rX-EXk4fziHpvqGVsTeJWrOOUDWRbZCPNs8zodZ9w34pLlni6kkzFYUW5nfa2ZglEKAvnt9ldKRDsT4tkU7etFIqijTp_ns_67WUnLqnZrCEpFERtsvw6PjTV_ieYVntBycWt95vUoCLwI442hOdg3o0qFvEvatxclw7lXIlwSJCj3JLA9jP3ME9d9tnePeE_s0JUceWZHqt1_ja_k3b6UEiU3bJFbLyfH2CWq5J9PmiDdB89sBWetYpwhB0xQbnfCnFkL47YRAb5f7jegT7jNOW_y_X0Ka7yeOdOLkIIqpnFeksRqaMQ-sxNGo757eAq9OUgyEhhpzSCArnk9mrkcrON-ioA8WS9ElMFBQZ8pQozk17MC_uklrYoynoWNc3QjknCbDWUdmZntTR6gQhncJa4"
+  }
+}
