@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_resource_data_Cartagena_Weather_1.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2025-08-23T09:17:12.216Z",
+    "credentialSubject": {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_resource_data_Cartagena_Weather_1.json",
+        "type": "gx:DataResource",
+        "gx:name": "Weather Sensor Data via FIWARE Context Broker",
+        "gx:description": "Contains WeatherData from the City of Cartagena",
+        "gx:containsPII": false,
+        "gx:policy": "default: allow",
+        "gx:license": "(c) City of Cartagena",
+        "gx:copyrightOwnedBy": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json",
+        "gx:producedBy": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Cartagena.json"
+        },
+        "gx:exposedThrough": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_provider_2.json"
+        }
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-08-23T11:17:12.225+02:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PJtAZEjTHXi-L5W6pFjuzxnZSTbbCLcEx3I4yoCxysraldFTJAYM66U0h3FwHOf_0mb4cl6GDzqs5v3-0xvBGRk0bpA17wJ6CDpz3tbAEN8eLl2QA8133OQJEdncOb_4QLF0p79JFbeHwpbVdtU4-Q1Bz2rUpjnHJrFpADuArNHcSv3coV88f2sVu6tXRky6c-le9SQxr6JKvOGx1ltHXeMgqna7_4hD2eY_m3A4YaapIL17qz_JLlLeawitaU_aYbqXQaMJbPUEWhdUDC7Pfcuk3rSkWCHOA-6WDgfek09ftI9a5Q1bjxozr0exqTPn_sJ_DlhjPHboncoM8LYof63rtdC5t9MIeHA1EcXv8uoPhmstPpDIb2nQkC8fBGb2_8jI-hr6GNIqcGdcSUiGF5rKMCYk5zAstDY1deRYj1Kd9N2ew3rceYOyQj7FLKNJ15N8w24H13v-WPDV8ImYtvG9qWHf9UK1u5LZKmoIDkm2rdwD-Iobw7m_LX4aYfUmq-v1Osq0R7ggeBH3aQO23yhiAlIzVW3J00kDz4lGYc9TE2gUxEYfuK5eb7Mc9mLJzgdwpWco40msDOvGUze66FzuGwFclrTnzUkq7KEoKMsBV5Jh0glqLrfozvuhfDdgY6KfiyNU5qqi1zXxruCdYNpVaEilVU6Fm7mfGX9afy4"
+    }
+}
