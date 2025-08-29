@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/security/suites/jws-2020/v1",
+        "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+    ],
+    "type": [
+        "VerifiableCredential"
+    ],
+    "id": "https://www.delta-dao.com/.well-known/2210_gx_resource_data_Kiel_Parking_1.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2025-08-29T09:44:58.775Z",
+    "credentialSubject": {
+        "id": "https://www.delta-dao.com/.well-known/2210_gx_resource_data_Kiel_Parking_1.json",
+        "type": "gx:DataResource",
+        "gx:name": "Parking Sensor Data via FIWARE Context Broker",
+        "gx:description": "Contains Parking Spot Occupation Data from the City of Kiel",
+        "gx:containsPII": false,
+        "gx:policy": "default: allow",
+        "gx:license": "(c) City of Kiel",
+        "gx:copyrightOwnedBy": "https://www.delta-dao.com/.well-known/2210_gx_participant_Kiel.json",
+        "gx:producedBy": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_participant_Kiel.json"
+        },
+        "gx:exposedThrough": {
+            "id": "https://www.delta-dao.com/.well-known/2210_gx_service_provider_2.json"
+        }
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2025-08-29T11:44:58.786+02:00",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com#JWK2020-RSA",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://w3id.org/security/suites/jws-2020/v1"
+        ],
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..IMznFTgmBQOREGITtpZbFAaChP86y7tKR0mwmi_Dj62eJQ9rNp7zu8rW9h1Yk3_I2-WGS0wFKYUkAgAdjiSVi7N4Tc16pwxP7mhaWa1jrMZoQTF7jklr_wNQMG65VftH5aL8NJTOCQYWgh8m2YMgiLyIIQK1Y7tb-JGSacXBGCV4ibmxMs5ekLwhPXs5l0W4B6_fcaHgPAo5NmXWHLpZVF9ELg7FRFgJKxnhr95TOrOekfzK-rrZS3qO7xsajFPZrxyh78iPkjGUtw9Gltm35XUC52rpdnG5FjkJbYdg0YclNl5a5yC8MxhrBbT2Um0Xk4UutYxlUE7jF2toYb71rtPyX-555vvH8Y2epOHMZOqzXIk_viGAoNPOnr3lijCEC5oDaSLJ40PX6M4U6wDo_nSlx9Bc5xEJxydtDX0wl4LCmkzYH44AVwVQtHqX7a1dXW-RJWMHIrc9k9L-lDUKlQhTqQkHx28JQHVZ9O1Wi1jt3d-D4eJnmYhkvR2cdWlSbWiojnoNboEGn0yROFTlyajgtK5EXlIJVQVXFetwxorRzHJsKWdm0wsfNZoSFD0vC9dkdUicJNe6ZZy8zFwTMEjDwoALyAtYfHRn3vo1sNT4uRHujPT4jHxOFJVabNSwk4KKR0k5Zuj9qSgO5t82XEg6kfLL3OCJFbUAvCF0Pg0"
+    }
+}
